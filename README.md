@@ -1,14 +1,14 @@
 # scieboleak
 
 This tool traverses a list of Uni-IDs in the form of and tries to get the corresponding full name via sciebo.
-An example Uni-ID might be s2aabehr.
+An example Uni-ID might be `s2aabehr`.
 
 ## Preparation
 
-You need to supply a list of Uni-IDs in a text file named l.txt. For the University of Bonn these IDs have the form s{$facultyId}{$TwoDigitFirstname}{$FourDigitLastname}.
-I provided a list of the 1000 most common first and last names in Germany, shortened and made duplicate free accordingly in the files v.txt and n.txt. The file f.txt contains the facultyIds of the facultys I expect the most students to be in (At least in Bonn).
+You need to supply a list of Uni-IDs in a text file named `l.txt`. For the University of Bonn these IDs have the form `s{$facultyId}{$TwoDigitFirstname}{$FourDigitLastname}`.
+I provided a list of the 1000 most common first and last names in Germany, shortened and made duplicate free accordingly in the files `v.txt` and `n.txt`. The file `f.txt` contains the facultyIds of the facultys I expect the most students to be in (At least in Bonn).
 
-You can use the idgen.py to generate a list of the resulting Uni-IDs. I also randomized this list and put it in l.txt.
+You can use the `idgen.py` to generate a list of the resulting Uni-IDs. I also randomized this list and put it in l.txt.
 
 Install `curl` on your system.
 
